@@ -1,0 +1,6 @@
+"0",""
+"0","#Here is the same graph as above, but with modified levels so that it is easier to view."
+"0","van_tree_clean_1 %>%"
+"0","  ggplot(aes(date_planted,diameter, color=factor(height_id))) +"
+"0","  geom_point(alpha=0.6, size=2) +"
+"0","  labs(y=""Tree Diameter"", x=""Date Planted"", subtitle=""Diameter and Height by Year Planted"")"

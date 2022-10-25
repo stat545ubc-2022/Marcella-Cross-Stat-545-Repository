@@ -1,0 +1,8 @@
+"0",""
+"0",""
+"0","#Tidy the data using separate to undo the previous step"
+"0","vancouver_trees=van_tree %>% "
+"0","  separate(col = street, into = c(""on_street"", ""street_side_name""), sep="", "") %>% "
+"0","  separate(col = latlon, into = c(""latitude"", ""longitude""), sep="", "")"
+"0",""
+"0","head(vancouver_trees)"

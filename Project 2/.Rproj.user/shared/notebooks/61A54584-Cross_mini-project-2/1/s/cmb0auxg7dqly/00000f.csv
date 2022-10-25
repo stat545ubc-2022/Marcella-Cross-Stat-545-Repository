@@ -1,0 +1,2 @@
+"0","#To show the before, I use the function head to show the names of the variables as well as the fact that each row is an observation and each cell is a value"
+"0","head(vancouver_trees)"

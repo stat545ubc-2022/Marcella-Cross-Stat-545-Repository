@@ -1,0 +1,6 @@
+"0","# I will make a new plot that shows the relationship between date planted and diameter with colors based on height class"
+"0","van_tree_clean %>%"
+"0","  ggplot(aes(date_planted,diameter, color=factor(height_range_id))) +"
+"0","  geom_point(alpha=0.5, size=2) +"
+"0","  labs(y=""Tree Diameter"", x=""Date Planted"", subtitle=""Diameter and Height by Year Planted"")"
+"0",""

@@ -1,0 +1,7 @@
+"0",""
+"0","#Untidy the data using unite to combine columns"
+"0","van_tree=vancouver_trees %>% "
+"0","  unite(col = street, c(on_street, street_side_name), sep = "", "")%>% "
+"0","  unite(col = latlon, c(latitude, longitude), sep = "", "")"
+"0",""
+"0","head(van_tree)"

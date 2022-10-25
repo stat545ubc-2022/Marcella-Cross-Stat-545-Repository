@@ -1,0 +1,2 @@
+"0","#Use the tidy function to produce a clean results table that shows the p.value and other helpful statistics. "
+"0","tidy(my.model.lm)"
