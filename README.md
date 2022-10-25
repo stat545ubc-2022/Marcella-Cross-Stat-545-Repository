@@ -2,7 +2,7 @@
 
 This is a repository for my mini data analysis project for stat 545. 
 
-10/05/2022 I uploaded two files. One is an html of the project and the other is the source rmd file that I developed the project in.
+10/25/2022 I fixed the output of the mini-analysis project to be an md file that contains the graphs directly.
 
 This repository is a collection of two mini-data analysis projects for stat 545. The first was an exploration of creating research questions and making basic plots in ggplot of the data to help answer the questions. The second is an extension of the first where I narrow down to two research questions and practice basic lm models to better answer the questions. Furthermore, I practice modifying levels of categorical variables, more plotting, and practice with date columns. 
 
