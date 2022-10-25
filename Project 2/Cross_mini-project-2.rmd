@@ -127,7 +127,7 @@ Now, try to choose a version of your data that you think will be appropriate to 
 <!--------------------------- Start your work below --------------------------->
 ```{r}
 #Here is the before of the data:
-vancouver_trees
+head(vancouver_trees)
 
 #First I will remove the NA values from the date planted column.  
 van_tree_clean = vancouver_trees %>% 
@@ -195,7 +195,6 @@ This is a slight modification from the instructions. Instead of creating an "oth
 ```{r}
 #This function will make just 5 height categories instead of 10 so that the graph will be more clear with the color index. This makes the conclusion easier to interpret. First, I make a new column from height_range_id to modify. Then I mutate that column to recode the levels.
 van_tree_clean$height_id=factor(van_tree_clean$height_range_id)
-van_tree_clean$height_id
 
 (van_tree_clean_1 = van_tree_clean %>% 
   mutate(height_id=fct_recode(height_id, "A"= "1","A"= "2","A"= "0",
