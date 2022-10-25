@@ -1,6 +1,6 @@
 ---
 title: "Mini Data-Analysis Deliverable 1"
-output: html_document
+output: github_document
 ---
 
 # Welcome to your (maybe) first-ever data analysis project!
@@ -14,7 +14,7 @@ And hopefully the first of many. Let's get started:
     install.packages("devtools")
     devtools::install_github("UBC-MDS/datateachr")
 
-2.  Load the packages below.
+2.  Load the packages below...
 
 ```{r}
 library(datateachr)
@@ -313,9 +313,9 @@ aggregate(diameter~height_range_id,data=vancouver_trees,sd)
 ```
 
 2.  Compute the number of observations for at least one of your categorical variables. Do not use the function `table()`!
-This is interesting for quesetions 3 and 4 as they both pertain to curbs.
+This is interesting for questions 3 and 4 as they both pertain to curbs.
 ```{r}
-#This will count the numver of observations for yes and no to a curb
+#This will count the number of observations for yes and no to a curb
 (summary_data <- vancouver_trees %>%
     group_by(curb) %>%
     summarise(Count = n())  )
